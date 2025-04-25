@@ -31,17 +31,17 @@ To develop hands-on expertise in Windows penetration testing, focusing on key at
 
 ## Practical Exercises
 
-## LLMNR Poisoning
+- LLMNR Poisoning
 <p align="center">
 <img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/01_First, run the Responder.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-<b>.</b>
+<b>First, run the Responder to capture network traffic, wait for responses, and capture hashes.</b>
 <br/>
 
 <p align="center">
 <img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-<b>.</b>
+<b>To generate traffic, configure one of the Windows machines to point to the attacker's machine.</b>
 <br/>
 
 <p align="center">
