@@ -39,49 +39,32 @@ To develop hands-on expertise in Windows penetration testing, focusing on key at
 <br/>
 
 <p align="center">
-<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/02_To generate traffic, configure one of the Windows.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
 <b>To generate traffic, configure one of the Windows machines to point to the attacker's machine.</b>
 <br/>
 
 <p align="center">
-<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/03_On the attacker's machine.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-<b>.</b>
-<br/>
-
-<p align="center">
-<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
-<br/>
-<b>.</b>
-<br/>
-
-## SMB Relay Attacks
-<p align="center">
-<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
-<br/>
-<b>.</b>
+<b>On the attacker's machine, it retrieves the IP address of the target, along with the user, domain, and hash.</b>
 <br/>
 
 <p align="center">
-<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/04_Copy and save the hash.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-<b>.</b>
-<br/>
-
-<p align="center">
-<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
-<br/>
-<b>.</b>
+<b>Copy and save the hash to crack later.</b>
 <br/>
 
 <p align="center">
-<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/05_Retrieve_1_edited.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-<b>.</b>
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/05_Retrieve_2_edited.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>Crack the hash by using a tool called Hashcat. The speed at which Hashcat can crack the password depends on the length and complexity of the password.</b>
 <br/>
 
-## IPv6 Attacks
+- SMB Relay Attacks
 <p align="center">
 <img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
 <br/>
@@ -106,19 +89,7 @@ To develop hands-on expertise in Windows penetration testing, focusing on key at
 <b>.</b>
 <br/>
 
-<p align="center">
-<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
-<br/>
-<b>.</b>
-<br/>
-
-## Pass the Hash and Password Attacks
-<p align="center">
-<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
-<br/>
-<b>.</b>
-<br/>
-
+- IPv6 Attacks
 <p align="center">
 <img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
 <br/>
@@ -137,7 +108,44 @@ To develop hands-on expertise in Windows penetration testing, focusing on key at
 <b>.</b>
 <br/>
 
-## Kerberoasting
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+- Pass the Hash and Password Attacks
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+- Kerberoasting
 <p align="center">
 <img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
 <br/>
