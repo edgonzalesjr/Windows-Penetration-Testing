@@ -31,7 +31,13 @@ To develop hands-on expertise in Windows penetration testing, focusing on key at
 
 ## Practical Exercises
 
-# LLMNR Poisoning
+## LLMNR Poisoning
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/01_First, run the Responder.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
 <p align="center">
 <img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
 <br/>
@@ -43,6 +49,113 @@ To develop hands-on expertise in Windows penetration testing, focusing on key at
 <br/>
 <b>.</b>
 <br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+## SMB Relay Attacks
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+## IPv6 Attacks
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+## Pass the Hash and Password Attacks
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+## Kerberoasting
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
 
 ## Outcome
 - Gained practical experience in identifying and exploiting vulnerabilities within Windows-based environments.
