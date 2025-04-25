@@ -24,16 +24,14 @@ To develop hands-on expertise in Windows penetration testing, focusing on key at
   - In-depth knowledge of how to leverage Kerberos authentication weaknesses for privilege escalation.
 
 ### Tools Used
-- Responder (for LLMNR poisoning and NetBIOS Name Service attacks)
-- Hashcat or John the Ripper (for cracking hashed credentials or service tickets)
-- Nmap (for network scanning and vulnerability assessment)
-- Mimikatz (for extracting credentials, hashes, and Kerberos tickets)
-- Netcat (for establishing reverse shells and relaying traffic)
-- Wireshark (for traffic analysis, capturing packets during poisoning or relay attacks)
-- Metasploit Framework (for automated exploitation and testing)
+- Kali Linux: Penetration testing tool to perform attacks on a vulnerable machine.
+- Windows Server 2022 Eval: Act as an Active Directory service.
+- Windows 10 Eval: End-user workstation.
+- VMWare Workstation: Isolated environment for testing and simulation.
 
 ## Practical Exercises
 
+# LLMNR Poisoning
 <p align="center">
 <img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
 <br/>
@@ -58,9 +56,13 @@ To develop hands-on expertise in Windows penetration testing, focusing on key at
 - Enhanced my readiness to contribute to incident response, vulnerability assessments, and network defense strategies in a professional setting.
 
 ## Acknowledgements
-This project combines ideas and methods from various sources, such as the Basic Penetration Testing by John Hammond, Josiah Pierce vulnerable VM and my IT experience. These resources provided the fundamental information and techniques, which were then modified in light of practical uses. 
- - []()
- - []()
+This project combines ideas and methods from various sources, such as the Real World Windows Pentest by David Bombal and TCM Security, Josiah Pierce vulnerable VM and my IT experience. These resources provided the fundamental information and techniques, which were then modified in light of practical uses. 
+ - [David Bombal](https://www.youtube.com/watch?v=BsS7VITiUXo)
+ - [TCM Security](https://academy.tcm-sec.com/)
+ - [Kali Linux](https://www.kali.org/) 
+ - [Windows Server 2022 Eval](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022)
+ - [Windows 10 Eval](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-10-enterprise)
+ - [VMWare Workstation](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion)
 
 ## Disclaimer
 The sole goals of the projects and activities here are for education and ethical cybersecurity research. All work was conducted in controlled environments, such as paid cloud spaces, private labs, and online cybersecurity education platforms. Online learning and cloud tasks adhered closely to all usage guidelines. Never use these projects for improper or unlawful purposes. It is always prohibited to break into any computer system or network. Any misuse of the provided information or code is not the responsibility of the author or authors.
