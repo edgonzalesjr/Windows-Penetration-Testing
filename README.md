@@ -66,27 +66,33 @@ To develop hands-on expertise in Windows penetration testing, focusing on key at
 
 - SMB Relay Attacks
 <p align="center">
-<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/01_SMB_Relay_Run responder.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-<b>.</b>
-<br/>
-
-<p align="center">
-<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
-<br/>
-<b>.</b>
+<b>Run the Responder to capture network traffic, wait for responses, and capture hashes.</b>
 <br/>
 
 <p align="center">
-<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/02_SMB_Relay_Run ntlmrelay.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-<b>.</b>
+<b>Run the ntlmrelay, wait for responses, and capture hashes.</b>
 <br/>
 
 <p align="center">
-<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/03_SMB_Relay_Let's trigger the connection.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-<b>.</b>
+<b>Let's trigger the connection. On one of the machines, let's point it to the attacher's machine just to generate traffic.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/04_SMB_Relay_On the attacker's machine.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>On the attacker's machine, it receives a connection from 192.168.10.7, then proceeds to attack the target at 192.168.10.8. It successfully authenticates using the TFC020308 account, which is a local administrator on 192.168.10.8. Since it's an administrator on that machine, it is able to dump the SAM hashes. Now, we have the hashes.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/05_SMB_Relay_Copy and save the hash.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>Copy and save the hash to crack later.</b>
 <br/>
 
 - IPv6 Attacks
