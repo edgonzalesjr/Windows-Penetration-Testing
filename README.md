@@ -127,7 +127,7 @@ To develop hands-on expertise in Windows penetration testing, focusing on key at
 <br/>
 <img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/05_IPv6_If a Domain Administrator logs_2.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-<b>If a Domain Administrator logs in to one of the Windows machines, the attack succeeds. It targets LDAP, and then attempts to create a new user for us. When we check the Domain Controller in Active Directory Users and Computers, we can confirm that the new user was successfully created.</b>
+<b>If a Domain Administrator logs in to one of the Windows machines, the attack succeeds. It targets LDAP, and then attempts to create a new user. When we check the Domain Controller in Active Directory Users and Computers, we can confirm that the new user was successfully created.</b>
 <br/>
   
 - Pass the Hash and Password Attacks
