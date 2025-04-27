@@ -97,36 +97,46 @@ To develop hands-on expertise in Windows penetration testing, focusing on key at
 
 - IPv6 Attacks
 <p align="center">
-<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/01_IPv6_run the tool.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-<b>.</b>
-<br/>
-
-<p align="center">
-<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
-<br/>
-<b>.</b>
+<b>To begin, run the tool, let it spin up, and start receiving replies from devices on the network.</b>
 <br/>
 
 <p align="center">
-<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/02_IPv6_run the tool.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-<b>.</b>
-<br/>
-
-<p align="center">
-<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
-<br/>
-<b>.</b>
+<b> At this point, we configure a relay attack and allow it to run in the background.</b>
 <br/>
 
 <p align="center">
-<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/03_IPv6_To speed up the process.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-<b>.</b>
+<b>To speed up the process, reboot one of the Windows machines. This will allow the attacker to observe the action: the machine will send out an IPv6 request. It will then attempt to authenticate as the IT-011A$ machine. You will see it enumerate the relayed user's privileges and dump the domain information into the lootdir.</b>
 <br/>
 
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/04_IPv6_Since the domain information_1.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/04_IPv6_Since the domain information_2.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>Since the domain information is dumped into the lootdir, examine its contents, as it provides important details about the domain. Open the domain_users_by_group.html file in a web browser to review key information.</b>
+<br/>
+
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/05_IPv6_If a Domain Administrator logs_1.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/05_IPv6_If a Domain Administrator logs_2.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>If a Domain Administrator logs in to one of the Windows machines, the attack succeeds. It targets LDAP, and then attempts to create a new user for us. When we check the Domain Controller in Active Directory Users and Computers, we can confirm that the new user was successfully created.</b>
+<br/>
+  
 - Pass the Hash and Password Attacks
+<p align="center">
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>.</b>
+<br/>
+
 <p align="center">
 <img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
 <br/>
