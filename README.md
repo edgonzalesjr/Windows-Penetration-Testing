@@ -140,27 +140,23 @@ To develop hands-on expertise in Windows penetration testing, focusing on key at
 <br/>
 
 <p align="center">
-<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/02_Pass the hash_Next, let's attempt to dump hashes_1.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-<b>.</b>
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/02_Pass the hash_Next, let's attempt to dump hashes_2.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-
-<p align="center">
-<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
-<br/>
-<b>.</b>
+<b>Next, let's attempt to dump hashes on workstations IT-011A and IT-012A, then run the tool.</b>
 <br/>
 
 <p align="center">
-<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/03_Pass the hash_Copy the hashes.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-<b>.</b>
+<b>Copy the hashes and perform a quick check for password reuse.</b>
 <br/>
 
 <p align="center">
-<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/04_Pass the hash_Run the tool.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-<b>.</b>
+<b>Run the tool and issue the command. A green plus sign indicates that it worked and attempted to pass the hash to other machines on the network.</b>
 <br/>
 
 - Kerberoasting
