@@ -130,11 +130,13 @@ To develop hands-on expertise in Windows penetration testing, focusing on key at
 <b>If a Domain Administrator logs in to one of the Windows machines, the attack succeeds. It targets LDAP, and then attempts to create a new user. When we check the Domain Controller in Active Directory Users and Computers, we can confirm that the new user was successfully created.</b>
 <br/>
   
-- Pass the Hash and Password Attacks
+- Pass the Password and Hash Attacks
 <p align="center">
-<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/01_Pass the pass_run the tool_1.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-<b>.</b>
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/01_Pass the pass_run the tool_2.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>To begin, run the tool and issue the command using the domain account we cracked earlier. The tool will then attempt to attack local machines on the network. We observed that it connected and attempted to use the username and password on workstations IT-011A and IT-012A. Let's try connecting to IT-012A — it successfully obtained a shell.</b>
 <br/>
 
 <p align="center">
