@@ -8,7 +8,7 @@ To develop hands-on expertise in Windows penetration testing, focusing on key at
   - Recognizing misconfigurations in network settings that enable this vulnerability.
 - SMB Relay Attacks
   - Expertise in exploiting SMB protocols to relay authentication requests.
-  - Ability to conduct man-in-the-middle attacks to access systems without requiring plaintext passwords.
+  - Ability to conduct man-in-the-middle attacks to access systems.
   - Practical application of techniques to escalate privileges in Windows environments.
 - IPv6 Attacks
   - Understanding IPv6-specific attack vectors and potential security risks in hybrid IPv4/IPv6 networks.  
