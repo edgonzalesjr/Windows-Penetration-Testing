@@ -1,5 +1,5 @@
 ## Objective
-To develop hands-on expertise in Windows penetration testing, focusing on key attack vectors such as LLMNR poisoning, SMB relay attacks, IPv6 exploitation, Pass The Hash, and Kerberoasting. The goal is to understand and apply practical techniques for identifying and exploiting security vulnerabilities in Windows environments, ultimately enhancing the ability to secure and defend corporate networks.
+To develop hands-on expertise in Windows penetration testing, focusing on key attack vectors such as LLMNR poisoning, SMB relay attacks, IPv6 exploitation, Pass The Password/Hash, and Kerberoasting. The goal is to understand and apply practical techniques for identifying and exploiting security vulnerabilities in Windows environments, ultimately enhancing the ability to secure and defend corporate networks.
 
 ### Skills Learned
 - LLMNR Poisoning
@@ -7,21 +7,19 @@ To develop hands-on expertise in Windows penetration testing, focusing on key at
   - Ability to perform poisoning attacks to intercept and redirect traffic for credential capture.
   - Recognizing misconfigurations in network settings that enable this vulnerability.
 - SMB Relay Attacks
-  - Expertise in exploiting SMB protocols to relay authentication requests and bypass security measures.
+  - Expertise in exploiting SMB protocols to relay authentication requests.
   - Ability to conduct man-in-the-middle attacks to access systems without requiring plaintext passwords.
   - Practical application of techniques to escalate privileges in Windows environments.
 - IPv6 Attacks
-  - Understanding IPv6-specific attack vectors and potential security risks in hybrid IPv4/IPv6 networks.
-  - Ability to disable or exploit IPv6 misconfigurations to bypass firewalls and network segmentation controls.
+  - Understanding IPv6-specific attack vectors and potential security risks in hybrid IPv4/IPv6 networks.  
   - Hands-on experience with exploiting IPv6-related vulnerabilities in Windows environments.
-- Pass The Hash (PTH) and Password Attacks
-  - Mastery of attacking Windows authentication protocols by using cached credentials or hash values.
-  - Practical knowledge of lateral movement techniques, such as using PTH to escalate privileges without needing the plaintext password.
-  - Skills in evading detection and maintaining access in compromised environments.
+- Pass The Password/Hash Attacks
+  - Knowledge of attacking Windows authentication protocols by using cached credentials or hash values.
+  - Practical knowledge of lateral movement techniques, such as using Pass The Hash to escalate privileges.  
 - Kerberoasting
   - Proficiency in exploiting service account misconfigurations in Active Directory.
   - Ability to request service tickets and perform offline cracking to recover service account passwords.
-  - In-depth knowledge of how to leverage Kerberos authentication weaknesses for privilege escalation.
+  - Knowledge of how to leverage Kerberos authentication weaknesses for privilege escalation.
 
 ### Tools Used
 - Kali Linux: Penetration testing tool to perform attacks on a vulnerable machine.
@@ -171,16 +169,16 @@ To develop hands-on expertise in Windows penetration testing, focusing on key at
 ## Outcome
 - Gained practical experience in identifying and exploiting vulnerabilities within Windows-based environments.
 - Developed the ability to execute LLMNR poisoning to intercept network traffic and capture credentials in misconfigured networks.
-- Mastered the use of SMB relay attacks to bypass authentication mechanisms and escalate privileges without needing plaintext passwords.
+- Proficient in having used SMB relay attacks to bypass authentication mechanisms and escalate privileges.
 - Gained proficiency in exploiting IPv6 attacks to compromise network defenses in mixed IPv4/IPv6 environments.
-- Acquired expertise in Pass The Hash techniques for lateral movement within compromised networks.
+- Acquired expertise in Pass The Password/Hash techniques for lateral movement within compromised networks.
 - Developed a deep understanding of Kerberoasting for extracting service account credentials via Active Directory misconfigurations.
-- Built proficiency with industry-standard penetration testing tools like Mimikatz, Impacket, Hashcat, and Wireshark to simulate real-world attacks and identify weaknesses in systems.
-- Strengthened my ability to apply attack methods in realistic scenarios, preparing me to effectively assess, detect, and mitigate security risks as a Security Analyst.
-- Enhanced my readiness to contribute to incident response, vulnerability assessments, and network defense strategies in a professional setting.
+- Built proficiency with industry-standard penetration testing tools to simulate real-world attacks and identify weaknesses in systems.
+- Strengthened the ability to apply attack methods in realistic scenarios, preparing to effectively assess, detect, and mitigate security risks.
+- Enhanced readiness to contribute to incident response, vulnerability assessments, and network defense strategies in a professional setting.
 
 ## Acknowledgements
-This project combines ideas and methods from various sources, such as the Real World Windows Pentest by David Bombal and TCM Security, Josiah Pierce vulnerable VM and my IT experience. These resources provided the fundamental information and techniques, which were then modified in light of practical uses. 
+This project combines ideas and methods from various sources, such as the Real World Windows Pentest by David Bombal and TCM Security and my IT experience. These resources provided the fundamental information and techniques, which were then modified in light of practical uses. 
  - [David Bombal](https://www.youtube.com/watch?v=BsS7VITiUXo)
  - [TCM Security](https://academy.tcm-sec.com/)
  - [Kali Linux](https://www.kali.org/) 
