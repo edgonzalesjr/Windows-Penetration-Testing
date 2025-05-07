@@ -161,23 +161,12 @@ To develop hands-on expertise in Windows penetration testing, focusing on key at
 
 - Kerberoasting
 <p align="center">
-<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/01_Kerberoasting_1.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-<b>.</b>
+<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/01_Kerberoasting_2.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-
-<p align="center">
-<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
+<b>Run the tool and issue the command. Provide the domain name, the domain user account, and specify the domain controller's IP address along with the request. It will obtain the Ticket Granting Service (TGS) ticket, which contains the hash that is encrypted. Copy and save the hash to crack it later.</b>
 <br/>
-<b>.</b>
-<br/>
-
-<p align="center">
-<img src="https://github.com/edgonzalesjr/Windows-Penetration-Testing/blob/main/images/" height="90%" width="90%" alt="Device Specification"/>
-<br/>
-<b>.</b>
-<br/>
-
 
 ## Outcome
 - Gained practical experience in identifying and exploiting vulnerabilities within Windows-based environments.
